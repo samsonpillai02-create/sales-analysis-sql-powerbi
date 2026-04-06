@@ -2,19 +2,21 @@
 
 ## 📌 Project Overview
 
-This project performs end-to-end sales data analysis using SQL and Power BI. It includes data cleaning, exploratory data analysis (EDA), and interactive dashboard visualization.
+This project presents an end-to-end sales data analysis using SQL and Power BI. It includes data cleaning, exploratory data analysis (EDA), and interactive dashboards to generate business insights.
 
 ---
 
 ## 📂 Repository Structure
 
 ```
-├── data/               # Raw dataset and source info
-├── sql/                # SQL queries for analysis
-├── powerbi/            # Power BI dashboard file
-├── dashboards/         # Dashboard screenshots
-├── analysis/           # EDA and insights
-├── documentation/      # Project workflow and design
+sales-analysis-sql-powerbi/
+│
+├── data/              # Dataset and source details
+├── sql/               # SQL queries for analysis
+├── powerbi/           # Power BI dashboard file
+├── dashboard/         # Dashboard & EDA screenshots
+├── analysis/          # Insights and summaries
+├── documentation/     # Workflow and design
 ```
 
 ---
@@ -22,58 +24,83 @@ This project performs end-to-end sales data analysis using SQL and Power BI. It 
 ## ⚙️ Tools & Technologies
 
 * SQL (Data Cleaning & Analysis)
-* Power BI (Data Visualization)
-* Excel/CSV (Dataset)
+* Power BI (Dashboard & Visualization)
+* CSV Dataset (Superstore)
 
 ---
 
 ## 📊 Key Insights
 
 * Technology category generates the highest sales
-* West region shows strong performance
-* Discounts negatively impact profit
-* Seasonal trends observed in sales
+* West region dominates overall revenue
+* Discounts negatively impact profit margins
+* Sales show consistent growth over time
+* Forecast suggests continued upward trend
 
 ---
 
 ## 📸 Dashboard Preview
 
-![Sales Overview](dashboards/sales_overview.png)
-![Sales Trends](dashboards/sales_trends.png)
+### 🔹 Executive Sales Overview
+
+![Sales Overview](dashboard/sales_overview.png)
+
+### 🔹 Sales & Customer Analysis
+
+![Customer Analysis](dashboard/customer_analysis.png)
+
+### 🔹 Sales Trend & Forecast
+
+![Sales Forecast](dashboard/sales_forecast.png)
+
+---
+
+## 📊 Exploratory Data Analysis
+
+### 🔹 Category & Product Analysis
+
+![Category Analysis](dashboard/category_analysis.png)
+
+### 📌 Insights from EDA
+
+* Technology category dominates overall sales
+* Some sub-categories contribute significantly more revenue
+* Low-performing products identified for improvement
+* Regional distribution highlights performance differences
 
 ---
 
 ## 🚀 How to Run This Project
 
-### Step 1: Clone the Repository
+### 1️⃣ Clone the Repository
 
 ```
 git clone https://github.com/your-username/sales-analysis-sql-powerbi.git
 ```
 
-### Step 2: Open Dataset
+### 2️⃣ Open Dataset
 
 * Navigate to `/data`
-* Load `superstore.csv`
+* Use `superstore.csv`
 
-### Step 3: Run SQL Queries
+### 3️⃣ Run SQL Queries
 
 * Open `/sql/analysis_queries.sql`
-* Execute queries in your SQL environment
+* Execute queries in MySQL / PostgreSQL
 
-### Step 4: Open Power BI Dashboard
+### 4️⃣ Open Power BI Dashboard
 
 * Open `/powerbi/superstore_sales_dashboard.pbix`
-* Refresh data if needed
+* Click **Refresh**
 
 ---
 
-## 📌 Project Workflow
+## 🔄 Project Workflow
 
 1. Data Collection
 2. Data Cleaning using SQL
 3. Exploratory Data Analysis (EDA)
-4. Data Visualization using Power BI
+4. Dashboard Creation in Power BI
 5. Insight Generation
 
 ---
@@ -81,4 +108,5 @@ git clone https://github.com/your-username/sales-analysis-sql-powerbi.git
 ## 👤 Author
 
 **Samson Pillai**
+
 
