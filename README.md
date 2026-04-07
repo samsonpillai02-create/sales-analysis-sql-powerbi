@@ -1,117 +1,171 @@
-# 📊 Sales Analysis using SQL & Power BI
+# 📊 Superstore Sales Insights Dashboard
+
+![Dashboard Preview](dashboard/sales_overview.png)
+
+> 🚀 End-to-end data analytics project using Excel, SQL, and Power BI to generate business insights
+
+---
+
+## 🏷️ Tech Stack
+
+![Power BI](https://img.shields.io/badge/Tool-Power%20BI-yellow)
+![SQL](https://img.shields.io/badge/Language-SQL-blue)
+![Excel](https://img.shields.io/badge/Tool-Excel-green)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+
+---
 
 ## 📌 Project Overview
 
-This project presents an end-to-end sales data analysis using SQL and Power BI. It includes data cleaning, exploratory data analysis (EDA), and interactive dashboards to generate business insights.
+This project focuses on analyzing retail sales data to uncover meaningful insights that support business decision-making.
+
+The analysis follows a complete data workflow:
+**Excel → SQL → Power BI**
 
 ---
 
-## 📂 Repository Structure
+## 🎯 Objectives
 
+* Analyze sales performance across regions and categories
+* Identify high-value customers
+* Understand sales trends over time
+* Provide actionable business insights
+
+---
+
+## 🛠 Tools & Technologies
+
+* **Excel** → Initial data cleaning and validation
+* **SQL** → Data querying and aggregation
+* **Power BI** → Data visualization and dashboard creation
+
+---
+
+## 📂 Project Structure
+
+```bash
+analysis/
+documentation/
+dashboard/
+data/
+powerbi/
+sql/
+README.md
 ```
-sales-analysis-sql-powerbi/
-│
-├── data/              # Dataset and source details
-├── sql/               # SQL queries for analysis
-├── powerbi/           # Power BI dashboard file
-├── dashboard/         # Dashboard & EDA screenshots
-├── analysis/          # Insights and summaries
-├── documentation/     # Workflow and design
-```
 
 ---
 
-## ⚙️ Tools & Technologies
+## 🔄 Project Workflow
 
-* SQL (Data Cleaning & Analysis)
-* Power BI (Dashboard & Visualization)
-* CSV Dataset (Superstore)
+1. **Data Preparation (Excel)**
+
+   * Cleaned and validated raw dataset
+   * Removed duplicates and handled missing values
+
+2. **Data Analysis (SQL)**
+
+   * Aggregated sales by region, category, and customer
+   * Extracted key insights using queries
+
+3. **Data Visualization (Power BI)**
+
+   * Built interactive dashboards
+   * Added filters and KPIs for better insights
 
 ---
 
-## 📊 Key Insights
+## 📊 Dashboard Preview
 
-* Technology category generates the highest sales
-* West region dominates overall revenue
-* Discounts negatively impact profit margins
-* Sales show consistent growth over time
-* Forecast suggests continued upward trend
-
----
-
-## 📸 Dashboard Preview
-
-### 🔹 Executive Sales Overview
+### 🔹 Sales Overview
 
 ![Sales Overview](dashboard/sales_overview.png)
 
-### 🔹 Sales & Customer Analysis
+---
+
+### 🔹 Customer Analysis
 
 ![Customer Analysis](dashboard/customer_analysis.png)
 
-### 🔹 Sales Trend & Forecast
+---
+
+### 🔹 Sales Forecast
 
 ![Sales Forecast](dashboard/sales_forecast.png)
 
 ---
 
-## 📊 Exploratory Data Analysis
+## 📈 Key Insights
 
-### 🔹 Category & Product Analysis
-
-![Category Analysis](dashboard/category_analysis.png)
-
-### 📌 Insights from EDA
-
-* Technology category dominates overall sales
-* Some sub-categories contribute significantly more revenue
-* Low-performing products identified for improvement
-* Regional distribution highlights performance differences
+* Sales are concentrated in specific regions
+* A small group of customers contributes significantly to total revenue
+* Certain product categories dominate overall sales
+* Sales trends show fluctuations over time
 
 ---
 
-## 🚀 How to Run This Project
+## 📚 Key Learnings
 
-### 1️⃣ Clone the Repository
+* Built an end-to-end data analytics pipeline
+* Improved SQL querying and data transformation skills
+* Designed interactive dashboards using Power BI
+* Translated business questions into actionable insights
 
-```
-git clone https://github.com/your-username/sales-analysis-sql-powerbi.git
-```
+---
 
-### 2️⃣ Open Dataset
+## 📁 Documentation
 
-* Navigate to `/data`
-* Use `superstore.csv`
+Detailed documentation is available in the `/documentation` folder:
 
-### 3️⃣ Run SQL Queries
+* Data Preparation
+* Analysis Process
+* Dashboard Design
+* KPI Definitions
+* Business Questions
 
-* Open `/sql/analysis_queries.sql`
-* Execute queries in MySQL / PostgreSQL
+---
 
-### 4️⃣ Open Power BI Dashboard
+## 📊 Analysis
 
-* Open `/powerbi/superstore_sales_dashboard.pbix`
-* Click **Refresh**
+Detailed analysis is available in the `/analysis` folder:
+
+* EDA Summary
+* SQL Analysis
+* Insights
+* Data Limitations
+
+---
+
+## 📌 Dataset
+
+Dataset details are available in:
+`/data/dataset_source.md`
+
+---
 
 ## 🚀 How to Use
 
-* Download the .pbix file from /powerbi
-* Open using Power BI Desktop
-* Explore interactive dashboards
----
-
-## 🔄 Project Workflow
-
-1. Data Collection
-2. Data Cleaning using SQL
-3. Exploratory Data Analysis (EDA)
-4. Dashboard Creation in Power BI
-5. Insight Generation
+1. Download the `.pbix` file from `/powerbi`
+2. Open using Power BI Desktop
+3. Interact with the dashboard
 
 ---
 
-## 👤 Author
+## ⚠️ Limitations
+
+* Dataset does not include profit/cost data
+* Analysis is limited to sales-based metrics
+* External factors are not considered
+
+---
+
+## 👨‍💻 Author
 
 **Samson Pillai**
+
+* Aspiring Data Analyst
+* Skilled in Power BI, SQL, and Data Visualization
+
+---
+
 
 
