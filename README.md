@@ -93,11 +93,11 @@ git clone https://github.com/your-username/sales-analysis-sql-powerbi.git
 * Open `/powerbi/superstore_sales_dashboard.pbix`
 * Click **Refresh**
 
-##🚀 How to Use
+## 🚀 How to Use
 
-Download the .pbix file from /powerbi
-Open using Power BI Desktop
-Explore interactive dashboards
+* Download the .pbix file from /powerbi
+* Open using Power BI Desktop
+* Explore interactive dashboards
 ---
 
 ## 🔄 Project Workflow
