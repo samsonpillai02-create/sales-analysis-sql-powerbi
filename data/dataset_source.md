@@ -3,7 +3,7 @@
 
 ## 📌 Overview
 
-This project uses the Superstore Sales Dataset, a retail dataset containing four years of transactional sales data from a global superstore.
+This project uses the Superstore Sales Dataset, a retail dataset containing four years of transactional sales data from a global superstore.Dataset sourced from Kaggle.
 
 The dataset is commonly used in data analytics and business intelligence projects to demonstrate sales performance analysis, customer segmentation, and time-series forecasting techniques.
 
